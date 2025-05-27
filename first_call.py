@@ -19,7 +19,7 @@ def main():
     model = genai.GenerativeModel('gemini-2.0-flash')
     
     # System prompt (fixed as per requirements)
-    system_prompt = "You are a helpful and concise assistant. Provide clear and accurate information."
+    system_prompt = "You are a helpful and concise assistant. Provide clear and accurate information. in 100 words or less."
     
     # Get user input
     user_prompt = input("Enter your prompt: ")
