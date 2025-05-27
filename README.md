@@ -59,7 +59,3 @@ Input tokens: 24
 Output tokens: 37
 Total tokens: 61
 ```
-
-## Note on API Keys
-
-Never commit your API key to a public repository. The `.env` file is included in `.gitignore` to prevent accidental commits of sensitive information. 
